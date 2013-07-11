@@ -1,0 +1,10 @@
+name: PowerKillall
+main: net.clonecomputers.lab.killall.PowerKillall
+version: 1.1
+commands:
+  powerkillall:
+      description: Kill all entities of any type in the world
+      usage: /powerkillall <radius> [x y z] [world] <entity type>
+      permission: powerkillall.command
+      permission-message: You don't have permission to use /powerkillall
+      
